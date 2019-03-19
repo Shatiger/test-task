@@ -11,7 +11,7 @@ import { AllComponent } from './all/all.component';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { RemovedComponent } from './removed/removed.component';
 
-import { FilterPipe} from './filter.pipe';
+import { FilterPipe } from './filter.pipe';
 
 const appRoutes: Routes = [
   {path: 'favorite', component: FavoriteComponent},
