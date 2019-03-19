@@ -14,9 +14,9 @@ import { RemovedComponent } from './removed/removed.component';
 import { FilterPipe} from './filter.pipe';
 
 const appRoutes: Routes = [
-  {path: '', component: AllComponent},
   {path: 'favorite', component: FavoriteComponent},
-  {path: 'removed', component: RemovedComponent}
+  {path: 'removed', component: RemovedComponent},
+  {path: '', component: AllComponent},
 ];
 
 @NgModule({

@@ -2,17 +2,11 @@
   <div class="row">
     <div class="col-3 border border-primary rounded p-3 align-self-start">
       <!--menu-->
-      <ul class="nav flex-column">
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/">Все смайлики</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/favorite">Любимые</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/removed">Удалённые</a>
-        </li>
-      </ul>
+      <div class="nav flex-column nav-pills">
+        <a class="nav-link" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Все смайлики</a>
+        <a class="nav-link" routerLink="/favorite" routerLinkActive="active">Любимые</a>
+        <a class="nav-link" routerLink="/removed" routerLinkActive="active">Удалённые</a>
+      </div>
       <!--//menu-->
     </div>
     <div class="col-9 px-5">
